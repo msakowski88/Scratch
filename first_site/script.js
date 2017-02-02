@@ -10,6 +10,8 @@ var colorChange = function() {
 
     if (buttzandstuff.className === 'header-blue') {
         buttzandstuff.className = 'header-red';
+    } else if (buttzandstuff.className === 'header-red') {
+        buttzandstuff.className = 'header-green';
     } else {
         buttzandstuff.className = 'header-blue';
     }
